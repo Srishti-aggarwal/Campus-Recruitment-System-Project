@@ -1,0 +1,40 @@
+
+nav .main-sec{
+    float:right;
+}
+nav{
+    overflow: hidden;
+    padding:20px 0px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    text-align: center;
+    width: 225px;
+    padding: 5px;
+    font-size: 20px;
+}
+nav ul a{
+    text-decoration: None !important;
+    color: black;
+    font-family: cursive;
+}
+.main-sec li a:hover{
+    color: black;
+    border-bottom: 3px solid black;
+    border-radius: 8px;
+    padding:8px;
+}
+
+.setWidth{
+    width: 100px !important;
+}
+footer{
+    background-color: #0d4282;
+    padding: 4% 0;
+    text-align: center;
+    color: #d6d6d6;
+    text-align: center;
+}

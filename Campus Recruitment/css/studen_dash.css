@@ -1,0 +1,28 @@
+.student_details{
+    background-color: #1d83ff;
+    padding: 7% 0 ;
+    color: #ececec;
+    font-family: sans-serif;
+}
+
+.student_details h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+    font-family: cursive;
+}
+
+.check_jobs{
+    background-color: #fff;
+    padding: 7% 0 ;
+    color: #272727;
+    font-family: sans-serif;
+}
+
+.job_for_student{
+    background: #1d83ff21;
+    padding: 3% 2%;
+}
+
+.job_for_student input{
+    width: 17%;
+}

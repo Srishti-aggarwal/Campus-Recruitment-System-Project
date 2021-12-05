@@ -1,0 +1,33 @@
+.company_details{
+    background-color: #1d83ff;
+    padding: 7% 0 ;
+    color: #ececec;
+    font-family: sans-serif;
+}
+
+.company_details h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+    font-family: cursive;
+}
+
+.company_details .border{
+    border-color: thistle;
+    box-shadow: gray 1px 1px 1px;
+}
+
+.students_applide{
+    background-color: #fff;
+    padding: 7% 0 ;
+    color: #272727;
+    font-family: sans-serif;
+}
+
+.app_Students{
+    background: #1d83ff21;
+    padding: 3% 2%;
+}
+
+.app_Students input{
+    width: 15%;
+}

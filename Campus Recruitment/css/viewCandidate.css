@@ -1,0 +1,23 @@
+.student_details{
+    background-color: #1d83ff;
+    padding: 7% 0 ;
+    color: #ececec;
+    font-family: sans-serif;
+}
+
+.student_details .container{
+    width: 50%;
+    margin: 0 auto;
+}
+.student_details h3{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.student_details h1{
+    font-size: 54px;
+    margin-bottom: 50px;
+    font-family: cursive;
+    color: white;
+    text-shadow: #736666 5px 1px 1px;
+}

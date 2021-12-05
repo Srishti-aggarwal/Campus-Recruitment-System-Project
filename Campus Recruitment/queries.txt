@@ -1,0 +1,8 @@
+
+create table students( s_id int not null primary key auto_increment, fname varchar(20) not null, lname varchar(20) not null, dob date not null, gender varchar(7) not null, email varchar(25) not null, password varchar(30) not null, mobile_no varchar(15) not null, address varchar(50) not null, sslc integer(5) not null, hsc integer(5) not null, cgpa integer(5) not null, course varchar(20) not null, passing_year integer(5) not null, reg_date datetime default current_timestamp )
+
+create table company (Company_Name varchar(250) not null, Email varchar (150) not null, Password varchar (255) not null, Contact_No varchar(15) not null, Name_Of_Ceo varchar(255), Name_Of_Cto varchar(255), Company_loc varchar(255) not null, id int(11) primary key auto_increment, Created_at datetime default current_timestamp);
+
+create table application(app_id int primary key auto_increment,sid int(11), j_id int(11),status varchar(10) default 'null', foreign key(sid) references students(s_id),foreign key(j_id) references jobs(job_id));
+
+create table jobs(job_id int primary key auto_increment, job_prof varchar(255) not null, job_sal int not null, job_loc varchar(255) not null, deadline date not null, year date not null, min_cgpa int(3) not null, course varchar(255) not null, max_age int(3) not null, c_id int(11), foreign key(c_id) references company(id));
