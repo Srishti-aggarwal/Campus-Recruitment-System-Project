@@ -1,0 +1,4 @@
+# Campus-Recruitment-System-Project
+The recruitment system allows the job seekers to apply for the job opportunity. The organization selects the applicants for the particular openings.The organisation selects the Applicant and finally the recruited applicants are informed. This system makes the task of the job seeker easier rather than waiting in queue for enrollment. This also reduces the time consumption for both for the job seeker and organization. If the entire process of ‘Recruitment' is done in a manual manner then it would takes several days for the recruitment. Considering the fact that the number of applicants for recruitment is increasing every year, a proper system becomes essential to meet the demand.
+
+So the system uses several programming and database techniques to elucidate the work involved in this process,Provide a communication platform between the Applicant and the Organization.
